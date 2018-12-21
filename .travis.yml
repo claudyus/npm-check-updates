@@ -3,16 +3,14 @@ sudo: false
 language: node_js
 
 node_js:
+  - 11
+  # lts
+  - 10
+  - 8
   - 6
-  - 5
-  - 4
 
 notifications:
   email: false
-
-branches:
-  only:
-    - master
 
 cache:
   directories:
